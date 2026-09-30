@@ -1,21 +1,5 @@
-num1 = float(input("Enter First number:"))
-operator = input("Enter operator (+, -, *, /)")
-num2 = float(input("Enter Second number: "))
+def add(a, b):    
+    return a + b 
 
-if operator == "+":
-    print("Result:", num1 + num2)
-
-elif operator == "-":
-    print("Result:", num1 - num2)
-
-elif operator == "*":
-    print("Result:", num1 * num2)
-
-elif operator == "/":
-    if num2 != 0:
-        print("Result:", num1 / num2)
-    else:
-        print("Cannot divide by zero")
-
-else:
-    print("Invalid operator")
+def subtract(a, b):    
+    return a - b
